@@ -2,8 +2,27 @@
 
 > "Flexbox is a one-dimensional layout method for laying out items in rows or columns.
 > Items flex to fill additional space and shrink to fit into smaller spaces."
+> - [MDN Web Docs_](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox "Link")
 
 ## Container and Items
 
 <p> There are different properties for the container and the items within the container. 
 We can also refer to them as parent and children elements. </p>
+
+<p> As a general rule, children elements will not exceed their parents width or height 
+(even if we set their values to be higher). </p>
+
+### Container Properties
+
+- display: flex;
+- flex-direction: row;  // _this property can also be set to other values_
+- justify-content: center;  // _this property can also be set to other values_
+- align-items: stretch;  // _this property can also be set to other values_
+
+<p> When the display property of the parent container is set to flex, we can move and organize items 
+along the x or y axis depending on the value set for the flex-direction property. 
+When flex-direction is set to row, items will move along the x-axis with the property justify-content and
+they will move along the y-axis with the property align-items. When flex-direction is set to column, 
+the logical arrangament of items is iverted, justify content manages the y-axis while align-items
+manages the x-axis. </p>
+
