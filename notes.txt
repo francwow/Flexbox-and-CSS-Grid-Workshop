@@ -1,0 +1,9 @@
+# What is Flexbox?
+
+> "Flexbox is a one-dimensional layout method for laying out items in rows or columns.
+> Items flex to fill additional space and shrink to fit into smaller spaces."
+
+## Container and Items
+
+<p> There are different properties for the container and the items within the container. 
+We can also refer to them as parent and children elements. </p>
